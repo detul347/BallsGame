@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI TextPoints;
     public int Points;
+
+    public bool GameOver;
     // Start is called before the first frame update
     void Start()
     {
