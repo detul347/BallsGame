@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 474735895085961136}
   - component: {fileID: 3812449594890776083}
   - component: {fileID: 7770995977726122565}
-  - component: {fileID: 2288567197523587505}
+  - component: {fileID: 1446912726259998038}
   m_Layer: 0
   m_Name: GCirce
   m_TagString: GCircle
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &2288567197523587505
+--- !u!114 &1446912726259998038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,6 +133,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 506530611996091926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90295ecb85f7efd4ca19cbeae7472fb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a0aed5ca5963e6469d9975d513cca2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitImpact: {fileID: 8460667080445658518, guid: a3e2c3406e02f2c4ba86cfb1604277bd, type: 3}
+  force: 5
+  forceForRight: 3
+  _gameManager: {fileID: 0}

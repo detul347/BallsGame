@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8317840606613392972}
   - component: {fileID: 8733354993435759361}
-  - component: {fileID: 1944474487172296467}
   - component: {fileID: -56761863265563472}
   - component: {fileID: 486875781714067532}
+  - component: {fileID: 6566835229971587648}
   m_Layer: 0
   m_Name: BCircle
   m_TagString: BBall
@@ -87,18 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1944474487172296467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045225980034823034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90295ecb85f7efd4ca19cbeae7472fb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &-56761863265563472
 Rigidbody2D:
   serializedVersion: 4
@@ -119,7 +107,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &486875781714067532
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +124,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &6566835229971587648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045225980034823034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ceff88fec57fca40859c2580bd1b666, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HitImpact: {fileID: 8460667080445658518, guid: a3e2c3406e02f2c4ba86cfb1604277bd, type: 3}
+  force: 5
+  forceForRight: 3
+  _gameManager: {fileID: 0}
